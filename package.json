@@ -1,0 +1,53 @@
+{
+  "name": "my-new-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings"
+  },
+  "dependencies": {
+    "angular2-polyfill": "0.0.32",
+    "@angular/animations": "^5.2.0",
+    "@angular/common": "^5.2.0",
+    "@angular/compiler": "^5.2.0",
+    "@angular/core": "^5.2.0",
+    "@angular/forms": "^5.2.0",
+    "@angular/http": "^5.2.0",
+    "@angular/platform-browser": "^5.2.0",
+    "@angular/platform-browser-dynamic": "^5.2.0",
+    "@angular/router": "^5.2.0",
+    "angular-polyfills": "1.0.1",
+    "core-js": "^2.4.1",
+    "rxjs-system-bundle": "5.5.6",
+    "systemjs": "0.19.36",
+    "zone.js": "0.8.20",
+    "reflect-metadata": "0.1.12",
+    "typescript": "~2.7.1",
+    "bootstrap": "4.0.0",
+    "jquery": "1.9.1",
+    "popper.js": "1.12.9",
+    "require": "2.4.20"
+  },
+  "devDependencies": {
+    "ts-node": "~4.1.0",
+    "tslint": "~5.9.1",
+    "gulp": "3.9.1",
+    "gulp-copy": "1.1.0",
+    "gulp-webserver": "0.9.1",
+    "gulp-uglify": "3.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-clean": "0.4.0",
+    "gulp-rename": "1.2.2",
+    "del": "3.0.0",
+    "gulp-watch": "5.0.0",
+    "gulp-sourcemaps": "2.6.4",
+    "gulp-minify-css": "1.2.4",
+    "gulp-minify-html": "1.0.6",
+    "gulp-ignore": "2.0.2",
+    "gulp-zip": "4.1.0"
+  }
+}
